@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%
+   }
+   h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px
+   }
+
+@font-face {
+    font-family: LeagueCondensedItalic;
+    src: url(../fonts/League-Gothic/LeagueGothic-CondensedItalic.otf);
+}
+
+@font-face {
+    font-family: LeagueCondensedRegular;
+    src: url(../fonts/League-Gothic/LeagueGothic-CondensedRegular.otf);
+}
+
+@font-face {
+    font-family: LeagueItalic;
+    src: url(../fonts/League-Gothic/LeagueGothic-Italic.otf);
+}
+
+@font-face {
+    font-family: LeagueRegular;
+    src: url(../fonts/League-Gothic/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+    font-family: Mayan;
+    src: url(../fonts/mayan_2/Mayan.ttf);
+}
+
+@font-face {
+    font-family: MayanGlyphsFill;
+    src: url(../fonts/mayan_glyphs/mayanglyphsfill-Regular.otf);
+}
+
+@font-face {
+    font-family: MayanGlyphsOutline;
+    src: url(../fonts/mayan_glyphs/mayanglyphsoutline-Regular.otf);
+}
+
+@font-face {
+    font-family: Palatino;
+    src: url(../fonts/Palatino-Font/Palatino\ Font.ttf);
+}
+
+.home {
+    margin-left: 50px;
+}
+
+.articles-featuring {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 30px;
+}
+
+.featuring h2 {
+    font-family: Mayan;
+    font-size: 50px;
+    margin-left: 110px;
+}
+
+.featuring p {
+    font-family: MayanGlyphsFill;
+    font-size: 18px;
+    margin-left: 110px;
+}
+
+.feat {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.first-column-feat {
+    width: 600px;
+}
+
+.second-column-feat {
+    width: 600px;
+}
+
+.featuring-title {
+    margin-top: 33px;
+}
+
+.featuring-title h2 {
+    font-family: LeagueRegular;
+    font-size: 25px;
+    margin-right: 15px;
+    letter-spacing: 3px;
+}
+
+.featuring-title p {
+    font-family: Palatino;
+    font-size: 16px;
+}
+
+.featuring-button p {
+    font-family: Palatino;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+#about {
+    display: none;
+}
+
+.about-title {
+    background-color: #E71375;
+    height: 300px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.about-title h1 {
+    font-family: Mayan;
+    font-size: 50px;
+}
+
+.about-title p {
+    font-family: MayanGlyphsFill;
+}
+
+.about-paragraph {
+    padding-left: 5px;
+    width: 1000px;
+}
+
+.about-paragraph p {
+    font-family: Palatino;
+}
+
+#guides {
+    display: none;
+}
+
+.guide-ruins-title {
+    background-color: #E71375;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.guide-ruins-title h1 {
+    font-family: Mayan;
+    font-size: 50px;
+}
+
+.guide-ruins-title p {
+    font-family: MayanGlyphsFill;
+}
+
+#blog {
+    display: none;
+}
+
+.articles-blog {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 30px;
+    padding-left: 130px;
+}
+
+.first-column-blog {
+    width: 600px;
+}
+
+.second-column-blog {
+    width: 600px;
+}
+
+.blogging {
+    display: block;
+}
+
+.blog {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.blog h2 {
+    font-family: Mayan;
+    font-size: 50px;
+    margin-right: 15px;
+    letter-spacing: 3px;
+}
+
+.blog p {
+    font-family: MayanGlyphsFill;
+}
+
+.blog-title h2 {
+    font-family: LeagueRegular;
+    font-size: 25px;
+    margin-left: 90px;
+    letter-spacing: 3px;
+}
+
+.blog-title p {
+    font-family: Palatino;
+    font-size: 16px;
+    margin-left: 90px;
+}

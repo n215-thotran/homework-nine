@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    align-items: right;
+    font-size: 40px;
+    flex-basis: 50%;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-spacing: 2px;
+    font-family: LeagueCondensedRegular;
+    margin-right: 70px;
+    letter-spacing: 7px;
+}
+
+.mayan-nav {
+    background-image: url(../images/chichen_itza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
